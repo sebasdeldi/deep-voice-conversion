@@ -46,7 +46,7 @@ class Default:
 
 class Train1:
     # path
-    data_path = '{}/timit/TIMIT/TRAIN/*/*/*.WAV'.format(data_path_base)
+    data_path = '{}/TIMIT/TRAIN/*/*/*.WAV'.format(data_path_base)
 
     # model
     hidden_units = 256  # alias = E
@@ -85,7 +85,7 @@ class Train2:
 
 class Test1:
     # path
-    data_path = '{}/timit/TIMIT/TEST/*/*/*.WAV'.format(data_path_base)
+    data_path = '{}/TIMIT/TEST/*/*/*.WAV'.format(data_path_base)
 
     # test
     batch_size = 16
