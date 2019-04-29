@@ -59,7 +59,7 @@ class Train1:
     # train
     batch_size = 16
     lr = 0.0003
-    num_epochs = 1
+    num_epochs = 1000
     save_per_epoch = 1
 
 
@@ -79,7 +79,7 @@ class Train2:
     # train
     batch_size = 16
     lr = 0.0005
-    num_epochs = 1    
+    num_epochs = 10000    
     save_per_epoch = 1
 
 
